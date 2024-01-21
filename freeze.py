@@ -1,6 +1,7 @@
 """standard freeze script"""
 
 from flask_frozen import Freezer
+import os
 
 # instead of "filename," below, use the name of the file that
 # runs YOUR Flask app - omit .py from the filename
